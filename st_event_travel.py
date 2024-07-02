@@ -68,3 +68,4 @@ if st.button(label="Search", type="primary", disabled=st.session_state.disabled)
 			mime="text/csv", type="secondary")
 
 		
+st.write("Share suggestions or feedback by opening an issue on the [GitHub repo](https://github.com/britishredcrosssociety/event-venue-catchment-area/issues)")

@@ -28,6 +28,9 @@ for more accurate comms targetting.
 5. Results will be displayed on a map. To export the results as a CSV, click 
    the button below the map.
 
+## Screenshot
+<kbd>[! Screenshot of postcode catchment tool](/images/screenshot.png)</kbd>
+
 
 ## Contribute
 If you notice any bugs or have suggestions for improvements, please open an issue. 
