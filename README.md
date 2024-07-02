@@ -29,7 +29,7 @@ for more accurate comms targetting.
    the button below the map.
 
 ## Screenshot
-<kbd>[! Screenshot of postcode catchment tool](./images/screenshot.png)</kbd>
+<kbd>![Screenshot of postcode catchment tool](./images/screenshot.png)</kbd>
 
 ## Contribute
 If you notice any bugs or have suggestions for improvements, please open an issue. 
