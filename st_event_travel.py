@@ -5,6 +5,8 @@ import requests
 
 st.title('Event travel time coverage')
 
+st.text("This tool allows you to generate a list of postcodes reachable within a set driving time from a start point.")
+
 @st.cache_data
 def load_postcodes(file): 
 	pcds_df = pd.read_parquet(file)
