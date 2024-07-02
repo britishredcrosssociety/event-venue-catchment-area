@@ -6,7 +6,7 @@ import requests
 st.title('Event travel time coverage')
 
 @st.cache_data
-def load_postcodes(file): 
+def load_postcodes(): 
 	return pd.read_parquet('./onspd_may24.parquet')
 
 if 'disabled' not in st.session_state: 
