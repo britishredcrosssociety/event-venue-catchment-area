@@ -7,14 +7,13 @@ st.title('Event travel time coverage')
 
 @st.cache_data
 def load_postcodes(file): 
-	pcds_df = pd.read_parquet(file)
-	return pcds_df
+	return pd.read_parquet('./onspd_may24.parquet')
 
 if 'disabled' not in st.session_state: 
 	st.session_state.disabled = True
 
 with st.spinner("Loading postcode data"): 
-	postcodes = load_postcodes('./onspd_may24.parquet')
+	postcodes = load_postcodes()
 	postcodes_gdf = gpd.GeoDataFrame(postcodes, geometry= gpd.points_from_xy(postcodes.long, postcodes.lat))
 
 st.write("This tool allows you to generate a list of postcodes reachable within a set driving time from a start point.")
