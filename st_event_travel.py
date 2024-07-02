@@ -22,7 +22,7 @@ if postcodes is not None:
 	venue_postcode = st.text_input(label="Venue postcode (required)", value= None)
 
 	# Get travel time input
-	travel_time = st.number_input(label="Travel time (mins)", value=60, step=10)
+	travel_time = st.number_input(label="Travel time in mins (required)", value=60, step=10)
 
 	# Get Mapbox API key input
 	token = st.text_input(label="Mapbox token (required)", type="password")
